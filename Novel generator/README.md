@@ -1,7 +1,3 @@
-IN USING THE CODE IN THIS EXAMPLE APP, YOU RELEASE GREGORY LAFRANCE
-AND ANY ORGANIZATIONS ASSOCIATED WITH HIM FROM ANY LIABILITY RELATED
-TO FEES FOR TOKEN USAGE OR ANY OTHER FEES OR PENALTIES INCURRED.
-
 This app is an example of performing deep research using the OpenAI Agent SDK.
 
 It enables you to easily generate novels.
@@ -46,4 +42,5 @@ When prompted, enter specifications for the novel to be generated, such as:
 - maximum tokens to use in creating the novel, after which an error message will be displayed
 
 Note that you can just press Enter to accept the defaults, 
+
 and auto-generated title, novel plot.
