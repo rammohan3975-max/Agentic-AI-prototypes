@@ -1,7 +1,5 @@
 # Weather Tool – Personal Assistant with Weather Integration
 
-Created by [Ayaz Somani](https://www.linkedin.com/in/ayazs) as a community contribution.
-
 ## Overview
 
 This Weather Tool community contribution gives the personal assistant chatbot the ability to discuss weather casually and contextually. It integrates real-time weather data from the Open-Meteo API, allowing the assistant to respond naturally to weather-related topics.
@@ -65,4 +63,5 @@ To test the weather functionality in context, try saying:
 - “What’s the weather like where you are today?”
 - “I’m heading to London. Wonder if I need an umbrella?”
 - “Is it really snowing in Calgary right now?”
+
 
