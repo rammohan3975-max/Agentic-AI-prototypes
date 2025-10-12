@@ -1,0 +1,17 @@
+# ITSM Process Deviation Detection Agent - Requirements
+
+pandas>=1.3.0
+numpy>=1.21.0
+matplotlib>=3.4.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
+openpyxl>=3.0.7
+xlsxwriter>=2.0.0
+
+# Optional for enhanced functionality
+jupyter>=1.0.0
+ipykernel>=6.0.0
+
+# For web deployment (optional)
+streamlit>=1.0.0
+flask>=2.0.0
