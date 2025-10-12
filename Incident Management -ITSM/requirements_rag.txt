@@ -1,0 +1,10 @@
+# Requirements for RAG-based Multi-Agent ITSM System
+pandas>=1.3.0
+numpy>=1.20.0
+
+# Optional for enhanced functionality
+matplotlib>=3.4.0
+seaborn>=0.11.0
+
+# Note: This system uses only CSV files, no Excel dependencies required
+# The system simulates RAG by reading text documents and CSV files

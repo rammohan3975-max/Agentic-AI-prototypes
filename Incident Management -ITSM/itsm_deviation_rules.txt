@@ -1,0 +1,61 @@
+
+ITSM Process Deviation Rules and Standards
+==========================================
+
+1. INCIDENT RESOLUTION TIME STANDARDS
+--------------------------------------
+- Critical Priority: Must be resolved within 4 hours
+- High Priority: Must be resolved within 12 hours  
+- Medium Priority: Must be resolved within 48 hours
+- Low Priority: Must be resolved within 96 hours
+
+DEVIATION: If resolution time exceeds above limits by more than 20%
+
+2. MANDATORY PROCESS STEPS BY CATEGORY
+---------------------------------------
+
+NETWORK INCIDENTS:
+Required Steps: Initial Assessment, Network Diagnostics, Root Cause Analysis, Solution Implementation, Testing, Closure
+Optional Steps: Configuration Check, Hardware Inspection, Documentation, User Notification
+
+APPLICATION INCIDENTS:
+Required Steps: Initial Assessment, Code Review, Bug Identification, Fix Implementation, Testing, Closure
+Optional Steps: Database Check, Log Analysis, Deployment, User Acceptance, Documentation
+
+HARDWARE INCIDENTS:
+Required Steps: Initial Assessment, Hardware Diagnostics, Component Testing, System Testing, Closure
+Optional Steps: Part Replacement, Performance Verification, Documentation, User Training
+
+SECURITY INCIDENTS:
+Required Steps: Initial Assessment, Security Scan, Threat Analysis, Patch Implementation, Compliance Check, Closure
+Optional Steps: Vulnerability Assessment, Security Testing, Documentation, User Notification
+
+USER SUPPORT INCIDENTS:
+Required Steps: Initial Assessment, User Interview, Problem Diagnosis, Implementation, Closure
+Optional Steps: Solution Research, User Training, Follow-up, Documentation, Satisfaction Survey
+
+DEVIATION: If any required step is missing from the incident resolution process
+
+3. TECHNICIAN PERFORMANCE STANDARDS
+------------------------------------
+- Each technician should maintain average resolution time within category standards
+- Customer satisfaction should be 'Satisfied' or 'Very Satisfied' for at least 80% of cases
+- No technician should have more than 15% process deviations
+
+DEVIATION: If technician exceeds above thresholds
+
+4. ESCALATION RULES
+-------------------
+- Critical incidents not resolved in 2 hours must be escalated
+- High priority incidents not resolved in 8 hours must be escalated
+- Any incident with customer satisfaction 'Dissatisfied' must be reviewed
+
+DEVIATION: If escalation rules are not followed
+
+5. DOCUMENTATION STANDARDS
+---------------------------
+- All incidents must have complete step documentation
+- Resolution steps must be clearly recorded
+- Customer communication must be documented
+
+DEVIATION: If documentation is incomplete or missing
