@@ -1,0 +1,291 @@
+
+================================================================================
+CHANGE MANAGEMENT PROCESS RULES AND COMPLIANCE STANDARDS
+Enterprise IT Service Management - Version 2.1
+Last Updated: October 2025
+================================================================================
+
+1. CHANGE CATEGORIZATION AND RISK LEVELS
+================================================================================
+
+Change Types:
+- Standard: Pre-approved, low-risk, routine changes
+- Normal: Requires CAB approval, medium risk
+- Emergency: Urgent changes to resolve critical issues
+- Infrastructure: Network, server, storage changes
+- Application: Software updates, patches, deployments
+- Database: Schema changes, data migrations
+
+Risk Levels:
+- Critical: Production outage risk, >1000 users affected
+- High: Major service impact, 500-1000 users affected
+- Medium: Moderate impact, 100-500 users affected
+- Low: Minimal impact, <100 users affected
+
+2. CHANGE APPROVAL REQUIREMENTS
+================================================================================
+
+Standard Changes:
+- Pre-approved by CAB
+- Can be implemented without additional approvals
+- Must follow documented procedure
+- Examples: Password resets, standard patches, routine maintenance
+
+Normal Changes:
+Required Approvals:
+1. Change Initiator Manager
+2. Change Advisory Board (CAB)
+3. Business Owner (if customer-facing)
+4. Security Team (if security-related)
+5. Compliance Team (if regulatory impact)
+
+CAB Meeting Schedule: Every Tuesday and Thursday, 2 PM IST
+Emergency CAB: Can be convened within 2 hours for critical changes
+
+Emergency Changes:
+Required Approvals (Minimum):
+1. IT Director or VP
+2. Emergency Change Advisory Board (ECAB)
+3. Business stakeholder approval
+
+Post-Implementation Review: Mandatory within 48 hours
+
+3. MANDATORY CHANGE DOCUMENTATION
+================================================================================
+
+Required Fields:
+1. Change Description: Detailed explanation of what is changing
+2. Business Justification: Why change is needed, benefits expected
+3. Impact Assessment: Systems affected, user impact, downtime expected
+4. Risk Assessment: What could go wrong, probability, severity
+5. Rollback Plan: Detailed steps to revert if change fails
+6. Testing Evidence: Proof that change works in test environment
+7. Implementation Plan: Step-by-step procedure with timelines
+8. Communication Plan: Who needs to be notified and when
+9. Success Criteria: How to verify change was successful
+10. Affected CIs: Configuration items being changed
+
+Compliance Requirement: ALL fields must be completed before approval
+
+4. CHANGE IMPLEMENTATION WINDOWS
+================================================================================
+
+Approved Change Windows:
+- Monday to Thursday: 10 PM - 6 AM IST (Non-Production)
+- Saturday: 2 AM - 8 AM IST (Production)
+- Sunday: 12 AM - 8 AM IST (Production)
+
+BLACKOUT WINDOWS (No Changes Allowed):
+- Friday 6 PM - Monday 6 AM IST
+- Last week of every month
+- Last week of every quarter (Mar, Jun, Sep, Dec)
+- Major holidays and holiday weekends
+- During peak business hours (9 AM - 6 PM IST, Mon-Fri)
+- During year-end close (Dec 25 - Jan 5)
+
+Emergency Change Exception:
+Can override blackout windows with IT Director approval
+Must have documented business justification
+
+5. PRE-IMPLEMENTATION REQUIREMENTS
+================================================================================
+
+Testing Requirements:
+Critical/High Risk Changes:
+- Mandatory testing in development environment
+- Mandatory testing in staging environment
+- User acceptance testing (UAT) completion
+- Performance testing results
+- Security testing (if applicable)
+
+Medium Risk Changes:
+- Testing in staging environment required
+- UAT recommended
+
+Low Risk Changes:
+- Peer review acceptable in lieu of formal testing
+
+Testing Documentation:
+- Test plan with test cases
+- Test results with screenshots/evidence
+- Sign-off from testing team
+
+6. ROLLBACK PLAN REQUIREMENTS
+================================================================================
+
+Mandatory Components:
+1. Rollback Decision Criteria: When to initiate rollback
+2. Rollback Steps: Detailed procedure to revert changes
+3. Rollback Timeline: How long rollback will take
+4. Rollback Testing: Evidence that rollback procedure works
+5. Data Backup: Confirmation of backup before change
+6. Rollback Approval: Who authorizes rollback decision
+
+Rollback Testing Requirement:
+- Must test rollback procedure in non-production before implementation
+- Document rollback test results
+- Confirm Recovery Time Objective (RTO) is achievable
+
+Database Changes:
+- Database backup mandatory before ANY change
+- Backup verification required
+- Rollback scripts tested
+- Data validation procedures documented
+
+7. COMMUNICATION REQUIREMENTS
+================================================================================
+
+Mandatory Notifications:
+
+Before Change:
+- All affected users (minimum 48 hours notice)
+- Business stakeholders (72 hours for critical changes)
+- Support team (24 hours before)
+- Monitoring team (before implementation)
+
+During Change:
+- Real-time status updates to stakeholders
+- Issue escalation to change manager
+- Impact updates if problems occur
+
+After Change:
+- Success/failure notification within 1 hour
+- Detailed post-implementation report within 24 hours
+- Lessons learned documentation (for failed changes)
+
+Communication Channels:
+- Email to affected users
+- Teams/Slack notifications
+- ITSM tool status updates
+- Dashboard updates
+
+8. POST-IMPLEMENTATION REQUIREMENTS
+================================================================================
+
+Within 1 Hour:
+- Implementation status (Success/Failed/Partial)
+- Issues encountered and resolution
+- Verification that success criteria met
+
+Within 24 Hours:
+- Post-Implementation Review (PIR) document
+- Lessons learned
+- Knowledge article update
+- Metrics and performance data
+
+Within 48 Hours (Emergency Changes):
+- Emergency Change Review Board meeting
+- Justification validation
+- Process improvement recommendations
+
+Knowledge Base Updates:
+- Update existing articles affected by change
+- Create new articles for new procedures
+- Update configuration management database (CMDB)
+
+9. CHANGE SUCCESS CRITERIA
+================================================================================
+
+Verification Requirements:
+✓ All implementation steps completed successfully
+✓ No unplanned outages or incidents
+✓ Success criteria met (as defined in change request)
+✓ Monitoring shows expected performance
+✓ User acceptance obtained
+✓ Rollback plan verified as available
+✓ Documentation updated
+
+Failed Change Criteria:
+✗ Implementation cannot be completed as planned
+✗ Unexpected issues or errors
+✗ Success criteria not met
+✗ User acceptance failed
+✗ Performance degradation detected
+
+Partial Success:
+- Some objectives met, some not met
+- Requires CAB decision on next steps
+
+10. CHANGE PERFORMANCE METRICS
+================================================================================
+
+Key Performance Indicators:
+- Change Success Rate: Target >95%
+- Emergency Change Rate: Target <5% of all changes
+- Changes Rolled Back: Target <3%
+- Changes Causing Incidents: Target <2%
+- Changes Approved on First Submission: Target >80%
+- Average Change Lead Time: Target <14 days (normal changes)
+
+Change Manager Responsibilities:
+- Track all change metrics
+- Report monthly to CAB
+- Identify trends and risks
+- Implement process improvements
+
+11. COMPLIANCE AND AUDIT REQUIREMENTS
+================================================================================
+
+Audit Trail Requirements:
+- Complete history of approvals with timestamps
+- All documentation versions
+- Communication logs
+- Implementation logs
+- Rollback execution (if performed)
+
+Regulatory Compliance:
+For changes affecting:
+- Financial systems: SOX compliance documentation
+- Healthcare data: HIPAA compliance verification
+- Personal data: GDPR impact assessment
+- Payment systems: PCI-DSS requirements
+
+Audit must be able to verify:
+- Proper approvals obtained
+- Required documentation complete
+- Testing performed
+- Communication sent
+- Post-implementation review completed
+
+12. VIOLATION SEVERITY AND CONSEQUENCES
+================================================================================
+
+CRITICAL VIOLATIONS:
+- Unauthorized change to production
+- Change during blackout window without approval
+- Missing CAB approval for normal change
+- No rollback plan for high-risk change
+- Change causing major incident
+
+Consequences:
+- Immediate suspension of change privileges
+- IT Director review
+- Mandatory retraining
+- Performance improvement plan
+- Possible termination for repeat violations
+
+HIGH VIOLATIONS:
+- Incomplete impact assessment
+- Missing testing evidence
+- Inadequate communication
+- Failed rollback plan
+- Missing required approvals
+
+Consequences:
+- Manager review
+- Corrective action required
+- Additional oversight for next 5 changes
+
+MEDIUM VIOLATIONS:
+- Late notifications
+- Incomplete documentation
+- Minor deviation from process
+
+Consequences:
+- Coaching session
+- Process reminder
+- Documentation improvement
+
+================================================================================
+END OF CHANGE MANAGEMENT RULES DOCUMENT
+================================================================================
