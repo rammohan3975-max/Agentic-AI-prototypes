@@ -1,5 +1,6 @@
 # ITSM Multi-Agent System - Technical Explanation
-## For Senior Management Presentation
+
+#personal-Learning
 
 ---
 
@@ -93,7 +94,7 @@ self._parse_incident_rules(response.text)
 
 ### How Incidents and Changes Are Loaded
 
-**Location in Code:** Lines 705-715 in `run_itsm_professional.py`
+**Location in Code:** Lines 705-715 in `run_itsm_Multi-Agent.py`
 
 #### Loading Process:
 
@@ -342,79 +343,7 @@ def _suggest_solution(self, incident):
                    └─────────┘
 ```
 
----
-
-## 8. Key Questions & Answers for Management
-
-### Q1: How do we know the system is fetching from GitHub and not using hardcoded rules?
-
-**Answer:** Lines 75-80 print the actual content fetched from GitHub:
-```python
-print("📄 INCIDENT RULES PREVIEW (First 500 chars from GitHub):")
-print(response.text[:500])  # Shows actual content from GitHub
-```
-
-When you run the system, you'll see the actual GitHub content displayed in the console. If rules were hardcoded, this content wouldn't change even if you update GitHub.
-
-**Test It:** Update a rule in GitHub, run the system again, and you'll see the new content immediately.
-
----
-
-### Q2: Where exactly does the system read the incident and change CSV files?
-
-**Answer:** Lines 705 and 711:
-```python
-# Line 705: Read incidents CSV
-incidents_df = pd.read_csv('incidents_data.csv')
-
-# Line 711: Read changes CSV
-changes_df = pd.read_csv('changes_data.csv')
-```
-
-**File Location:** Same directory as the Python script
-**File Format:** Standard CSV (comma-separated values)
-**Can be:** Exported from Excel, ServiceNow, Jira, etc.
-
----
-
-### Q3: How does the system provide solutions based on past analysis?
-
-**Answer:** Lines 360-375 implement pattern-based solution recommendation:
-
-```python
-def _suggest_solution(self, incident):
-    suggestions = {
-        'Network': 'Check network connectivity, verify routing tables...',
-        'Application': 'Review logs, check for errors...',
-        ...
-    }
-    return suggestions.get(incident['Category'])
-```
-
-**Method:**
-1. System maintains a knowledge base of proven solutions
-2. When analyzing an incident, it matches the category
-3. Returns the recommended solution from historical patterns
-
-**Enhancement Path:** Can be upgraded to machine learning by training on actual resolution data with success rates.
-
----
-
-### Q4: What technology/method is used to fetch documents from GitHub?
-
-**Answer:**
-- **Library:** Python `requests` (HTTP client library)
-- **Protocol:** HTTP/HTTPS
-- **Method:** GET request
-- **API:** GitHub Raw Content API (no authentication for public repos)
-- **Code:** `response = requests.get(url)` on line 70
-
-**Analogy for Non-Technical Audience:**
-"Like clicking a link to view a document online, but done automatically by the program."
-
----
-
-## 9. Benefits Summary for Management
+## 9. Benefits Summary by this Agent
 
 ### Business Value
 
@@ -510,4 +439,4 @@ python run_itsm_professional.py
 
 **Document Version:** 1.0  
 **Last Updated:** October 25, 2025  
-**For:** Senior Management Presentation
+**For:** Personal Learning
