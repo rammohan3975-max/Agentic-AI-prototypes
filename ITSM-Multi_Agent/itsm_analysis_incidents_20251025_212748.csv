@@ -1,0 +1,51 @@
+ID,Type,Category,Priority,Technician,Manager,Manager_Email,Deviation_Count,Compliance_Status,Suggested_Solution,Estimated_Time
+INC100000,Incident,Database,Medium,Vikram Singh,Rammohan Davala,davala.rammohan@cognizant.com,0,COMPLIANT,"Check database logs, optimize queries, verify backup integrity",24 hours
+INC100001,Incident,Network,Critical,Suresh Iyer,Rammohan Davala,davala.rammohan@cognizant.com,2,NON-COMPLIANT,"Check network connectivity, verify routing tables, restart network services",3 hours
+INC100002,Incident,Database,High,Suresh Iyer,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,1,NON-COMPLIANT,"Check database logs, optimize queries, verify backup integrity",8 hours
+INC100003,Incident,Network,High,Deepa Menon,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,0,COMPLIANT,"Check network connectivity, verify routing tables, restart network services",8 hours
+INC100004,Incident,Hardware,Low,Vikram Singh,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,1,NON-COMPLIANT,"Run hardware diagnostics, check component status, plan replacement if needed",48 hours
+INC100005,Incident,Application,Low,Sneha Reddy,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,2,NON-COMPLIANT,"Review application logs, check for code errors, restart application services",48 hours
+INC100006,Incident,Security,High,Amit Patel,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,1,NON-COMPLIANT,"Isolate affected systems, apply security patches, conduct security scan",8 hours
+INC100007,Incident,Database,Medium,Priya Sharma,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,2,NON-COMPLIANT,"Check database logs, optimize queries, verify backup integrity",24 hours
+INC100008,Incident,Hardware,Critical,Karthik Rao,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,1,NON-COMPLIANT,"Run hardware diagnostics, check component status, plan replacement if needed",3 hours
+INC100009,Incident,Network,Medium,Deepa Menon,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,1,NON-COMPLIANT,"Check network connectivity, verify routing tables, restart network services",24 hours
+INC100010,Incident,Hardware,High,Amit Patel,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,1,NON-COMPLIANT,"Run hardware diagnostics, check component status, plan replacement if needed",8 hours
+INC100011,Incident,Security,Low,Suresh Iyer,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,1,NON-COMPLIANT,"Isolate affected systems, apply security patches, conduct security scan",48 hours
+INC100012,Incident,Database,Medium,Priya Sharma,Rammohan Davala,davala.rammohan@cognizant.com,0,COMPLIANT,"Check database logs, optimize queries, verify backup integrity",24 hours
+INC100013,Incident,Database,Critical,Amit Patel,Rammohan Davala,davala.rammohan@cognizant.com,1,NON-COMPLIANT,"Check database logs, optimize queries, verify backup integrity",3 hours
+INC100014,Incident,Network,Low,Vikram Singh,Rammohan Davala,davala.rammohan@cognizant.com,1,NON-COMPLIANT,"Check network connectivity, verify routing tables, restart network services",48 hours
+INC100015,Incident,Hardware,High,Deepa Menon,Rammohan Davala,davala.rammohan@cognizant.com,3,NON-COMPLIANT,"Run hardware diagnostics, check component status, plan replacement if needed",8 hours
+INC100016,Incident,Security,High,Deepa Menon,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,3,NON-COMPLIANT,"Isolate affected systems, apply security patches, conduct security scan",8 hours
+INC100017,Incident,Network,Low,Vikram Singh,Rammohan Davala,davala.rammohan@cognizant.com,1,NON-COMPLIANT,"Check network connectivity, verify routing tables, restart network services",48 hours
+INC100018,Incident,Security,Critical,Karthik Rao,Rammohan Davala,davala.rammohan@cognizant.com,2,NON-COMPLIANT,"Isolate affected systems, apply security patches, conduct security scan",3 hours
+INC100019,Incident,Database,High,Anita Desai,Rammohan Davala,davala.rammohan@cognizant.com,0,COMPLIANT,"Check database logs, optimize queries, verify backup integrity",8 hours
+INC100020,Incident,Database,Medium,Kavita Nair,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,2,NON-COMPLIANT,"Check database logs, optimize queries, verify backup integrity",24 hours
+INC100021,Incident,Network,Critical,Suresh Iyer,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,0,COMPLIANT,"Check network connectivity, verify routing tables, restart network services",3 hours
+INC100022,Incident,Network,High,Kavita Nair,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,2,NON-COMPLIANT,"Check network connectivity, verify routing tables, restart network services",8 hours
+INC100023,Incident,Application,Medium,Anita Desai,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,0,COMPLIANT,"Review application logs, check for code errors, restart application services",24 hours
+INC100024,Incident,Security,Medium,Sneha Reddy,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,1,NON-COMPLIANT,"Isolate affected systems, apply security patches, conduct security scan",24 hours
+INC100025,Incident,Network,High,Deepa Menon,Rammohan Davala,davala.rammohan@cognizant.com,1,NON-COMPLIANT,"Check network connectivity, verify routing tables, restart network services",8 hours
+INC100026,Incident,Hardware,High,Anita Desai,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,2,NON-COMPLIANT,"Run hardware diagnostics, check component status, plan replacement if needed",8 hours
+INC100027,Incident,Application,Critical,Anita Desai,Rammohan Davala,davala.rammohan@cognizant.com,1,NON-COMPLIANT,"Review application logs, check for code errors, restart application services",3 hours
+INC100028,Incident,Security,Medium,Anita Desai,Rammohan Davala,davala.rammohan@cognizant.com,0,COMPLIANT,"Isolate affected systems, apply security patches, conduct security scan",24 hours
+INC100029,Incident,Security,High,Suresh Iyer,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,0,COMPLIANT,"Isolate affected systems, apply security patches, conduct security scan",8 hours
+INC100030,Incident,Application,High,Sneha Reddy,Rammohan Davala,davala.rammohan@cognizant.com,0,COMPLIANT,"Review application logs, check for code errors, restart application services",8 hours
+INC100031,Incident,Hardware,High,Deepa Menon,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,0,COMPLIANT,"Run hardware diagnostics, check component status, plan replacement if needed",8 hours
+INC100032,Incident,Database,Critical,Amit Patel,Rammohan Davala,davala.rammohan@cognizant.com,2,NON-COMPLIANT,"Check database logs, optimize queries, verify backup integrity",3 hours
+INC100033,Incident,Hardware,Medium,Karthik Rao,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,0,COMPLIANT,"Run hardware diagnostics, check component status, plan replacement if needed",24 hours
+INC100034,Incident,Hardware,Critical,Deepa Menon,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,2,NON-COMPLIANT,"Run hardware diagnostics, check component status, plan replacement if needed",3 hours
+INC100035,Incident,Database,Critical,Amit Patel,Rammohan Davala,davala.rammohan@cognizant.com,0,COMPLIANT,"Check database logs, optimize queries, verify backup integrity",3 hours
+INC100036,Incident,Hardware,High,Priya Sharma,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,2,NON-COMPLIANT,"Run hardware diagnostics, check component status, plan replacement if needed",8 hours
+INC100037,Incident,Hardware,Critical,Suresh Iyer,Rammohan Davala,davala.rammohan@cognizant.com,0,COMPLIANT,"Run hardware diagnostics, check component status, plan replacement if needed",3 hours
+INC100038,Incident,Security,Critical,Deepa Menon,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,2,NON-COMPLIANT,"Isolate affected systems, apply security patches, conduct security scan",3 hours
+INC100039,Incident,Hardware,Low,Vikram Singh,Rammohan Davala,davala.rammohan@cognizant.com,2,NON-COMPLIANT,"Run hardware diagnostics, check component status, plan replacement if needed",48 hours
+INC100040,Incident,Network,Medium,Sneha Reddy,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,0,COMPLIANT,"Check network connectivity, verify routing tables, restart network services",24 hours
+INC100041,Incident,Security,Critical,Sneha Reddy,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,1,NON-COMPLIANT,"Isolate affected systems, apply security patches, conduct security scan",3 hours
+INC100042,Incident,Hardware,High,Rajesh Kumar,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,3,NON-COMPLIANT,"Run hardware diagnostics, check component status, plan replacement if needed",8 hours
+INC100043,Incident,Security,Low,Deepa Menon,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,1,NON-COMPLIANT,"Isolate affected systems, apply security patches, conduct security scan",48 hours
+INC100044,Incident,Hardware,Low,Amit Patel,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,1,NON-COMPLIANT,"Run hardware diagnostics, check component status, plan replacement if needed",48 hours
+INC100045,Incident,Hardware,Low,Sneha Reddy,Rammohan Davala,davala.rammohan@cognizant.com,1,NON-COMPLIANT,"Run hardware diagnostics, check component status, plan replacement if needed",48 hours
+INC100046,Incident,Security,Critical,Vikram Singh,Rammohan Davala,davala.rammohan@cognizant.com,1,NON-COMPLIANT,"Isolate affected systems, apply security patches, conduct security scan",3 hours
+INC100047,Incident,Network,High,Anita Desai,Rammohan Davala,davala.rammohan@cognizant.com,0,COMPLIANT,"Check network connectivity, verify routing tables, restart network services",8 hours
+INC100048,Incident,Security,High,Amit Patel,Siddhartha Chakraborty,Siddhartha.chakraberty@cognizant.com,0,COMPLIANT,"Isolate affected systems, apply security patches, conduct security scan",8 hours
+INC100049,Incident,Hardware,High,Amit Patel,Rammohan Davala,davala.rammohan@cognizant.com,0,COMPLIANT,"Run hardware diagnostics, check component status, plan replacement if needed",8 hours
