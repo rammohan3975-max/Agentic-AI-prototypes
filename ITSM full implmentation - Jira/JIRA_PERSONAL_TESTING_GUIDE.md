@@ -138,18 +138,14 @@ auth = (
     "your_api_token"           # API token (not password!)
 )
 
-Contact & Support
-Developer: Ram Mohan
-Email: rammohan3975@gmail.com
-GitHub: https://github.com/rammohan3975-max/Agentic-AI-prototypes
 
-Document Version: 1.0
-Last Updated: October 25, 2025
-For: Personal Learning
-
----
 
 **Document Version**: 1.0  
 **Created**: October 25, 2025  
 **Purpose**: Personal Testing Setup Guide  
 **Cost**: $0 (100% Free)
+Contact & Support
+Developer: Ram Mohan
+Email: rammohan3975@gmail.com
+GitHub: https://github.com/rammohan3975-max/Agentic-AI-prototypes
+
