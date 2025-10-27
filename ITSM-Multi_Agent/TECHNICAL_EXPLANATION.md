@@ -1,10 +1,10 @@
-# ITSM Multi-Agent System - Technical Explanation
+<img width="1000" height="600" alt="image" src="https://github.com/user-attachments/assets/5d36ebeb-bb4e-438d-bee7-c22bebf3b689" /># ITSM Multi-Agent System - Technical Explanation
 
 #personal-Learning
 
 ---
 
-## 📋 Table of Contents
+## 📋 What we have in the document:
 1. System Architecture Overview
 2. GitHub Integration Explained
 3. CSV Input Processing
@@ -50,7 +50,7 @@
 ```python
 GITHUB_BASE_URL = "https://raw.githubusercontent.com/rammohan3975-max/Agentic-AI-prototypes/main/ITSM-COMPLEX/"
 ```
-- This is the base URL for your GitHub repository
+- This is the base URL for your GitHub repository [personal]
 - `raw.githubusercontent.com` provides direct access to file content
 - No authentication needed for public repositories
 
@@ -82,10 +82,9 @@ self._parse_incident_rules(response.text)
 - Stores in memory for analysis
 
 ### Why This Approach?
-
-✅ **Real-time Updates:** Always fetches latest rules from GitHub
+✅ **Real-time Updates:** Always fetches latest rules from GitHub/document database
 ✅ **No Hardcoding:** Rules not embedded in Python code
-✅ **Version Control:** GitHub tracks all changes to rules
+✅ **Version Control:** Agent tracks all changes to rules
 ✅ **Centralized:** Single source of truth for ITSM rules
 
 ---
@@ -256,13 +255,6 @@ def _suggest_solution(self, incident):
 | **Email** | `smtplib` (SMTP protocol) | Send emails via Gmail |
 | **Environment** | `python-dotenv` | Secure credential storage |
 | **GitHub** | Public repository | Centralized rule storage |
-
-### Why These Technologies?
-
-✅ **Python:** Industry standard for automation and AI
-✅ **Pandas:** Excel-like data manipulation in code
-✅ **SMTP:** Universal email protocol (works with any provider)
-✅ **GitHub:** Free, reliable, version-controlled storage
 
 ---
 
